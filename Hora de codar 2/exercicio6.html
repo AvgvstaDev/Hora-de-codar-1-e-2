@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            //Faça um programa que receba quatro valores informados pelo usuário, mas informe somente o primeiro, o último e o maior de todos eles (considere que todos os números informados serão diferentes)
+
+            var numeroUm = parseFloat(prompt("Insira o primeiro número: "));
+            var numeroDois = parseFloat(prompt("Insira o segundo número: "));
+            var numeroTres = parseFloat(prompt("Insira o terceiro número: "));
+            var numeroQuatro = parseFloat(prompt("Insira o quarto número: "));
+
+            alert("O primeiro número é: " + numeroUm + " e o último número é: " + numeroQuatro + ".")
+
+            if (numeroUm>numeroDois && numeroUm>numeroTres && numeroUm>numeroQuatro) {
+
+                alert("O maior número é: " + numeroUm);
+
+            } else if (numeroDois>numeroUm && numeroDois>numeroTres && numeroDois>numeroQuatro) {
+
+                alert("O maior número é: " + numeroDois);
+
+            } else if (numeroTres>numeroDois && numeroTres>numeroUm && numeroTres>numeroQuatro) {
+
+                alert("O maior número é: " + numeroTres);
+
+            } else {
+                
+                alert("O maior número é: " + numeroQuatro);
+            } 
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            //Tendo como entrada a altura e o sexo (codificado da seguinte forma: 1: feminino 2: masculino) de uma pessoa, construa um programa que calcule e imprima seu peso ideal, utilizando as seguintes fórmulas:
+            //para mulheres: (62.1*h) - 44.7
+            // para homens: (72.7*h)-58
+            
+
+            altura = parseFloat(prompt("Insira sua altura:"));
+            sexo = parseInt(prompt("Informe seu gênero: \n 1- feminino \n 2- masculino"));
+            pesoIdeal = 0;
+
+            if (sexo==1) {
+                pesoIdeal= (62.1*altura)-44.7
+            } else {
+                pesoIdeal= (72.7*altura)-58
+            }
+
+            alert("Seu peso ideal é: " + pesoIdeal.toFixed(2));
+
+        </script>
+    </body>
+</html>

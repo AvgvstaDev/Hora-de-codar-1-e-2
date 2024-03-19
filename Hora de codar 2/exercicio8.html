@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            //Escreva um programa que calcule a média de quatro números informados pelo usuário, mas somente se esses números forem maiores que 0 e menores que 10. No final, se a média for maior que cinco o usuário receberá uma mensagem "Você passou no teste". Em qualquer outra situação, ele receberá uma mensagem de "tente novamente"
+
+             soma = 0; 
+             divisao = 0;
+
+            numUm = parseInt(prompt("Insira o primeiro número: "));
+            if (numUm > 0 && numUm < 10) {
+                soma += numUm
+                divisao++
+            } 
+
+            numDois = parseInt(prompt("Insira o segundo número: "));
+            if (numDois > 0 && numDois < 10) {
+                soma += numDois
+                divisao++
+            } 
+
+            numTres = parseInt(prompt("Insira o terceiro número: "));
+            if (numTres > 0 && numTres < 10) {
+                soma += numTres
+                divisao++
+            } 
+
+            numQuatro = parseInt(prompt("Insira o quarto número: "));
+            if (numQuatro > 0 && numQuatro < 10) {
+                soma += numQuatro
+                divisao++
+            } 
+
+         media = soma/divisao;
+
+         if (media>5) {
+            alert("Você passou no teste!")
+         } else {
+            alert("Tente novamente!")
+         }
+
+        </script>
+    </body>
+</html>

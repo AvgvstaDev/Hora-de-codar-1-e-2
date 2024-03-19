@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <script>
+            //Faça um programa para ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles
+
+            var numeroUm = parseFloat(prompt("Insira o número um: "));
+
+            var numeroDois = parseFloat(prompt("Insira o número dois: "));
+
+            var numeroTres = parseFloat(prompt("Insira o número três: "));
+
+            if(numeroUm > numeroDois && numeroTres){
+                alert("O primeiro número é o maior: " + numeroUm)
+            } else if(numeroDois > numeroUm && numeroTres){
+                alert("O segundo número é o maior: " + numeroDois)
+            } else{
+                alert("O terceiro número é o maior: " + numeroTres)
+            }
+        </script>
+    </body>
+</html>
