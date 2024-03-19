@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            //Considerando a figura abaixo, escreva um programa para cada forma que calcule e exiba em tela cada uma de suas respectivas áreas. O usuário irá informar os valores de cada variável.
+
+            var baseRetangulo = parseInt(prompt("Informe a medida da base do retângulo:"));
+            var alturaRetangulo = parseInt(prompt("Informe a medida da altura do retângulo:"));
+            var calculoRetangulo = baseRetangulo*alturaRetangulo;
+
+            alert("A área do retângulo corresponde a: " + calculoRetangulo);
+
+            var ladoQuadrado = parseInt(prompt("Informe a medida do lado do quadrado:"));
+            var calculoQuadrado = Math.pow(ladoQuadrado,2);
+
+            alert("A área do quadrado corresponde a: " + calculoQuadrado);
+
+            var diagonalMaior = parseInt(prompt("Informe a medida da diagonal maior do losango:"));
+            var diagonalMenor = parseInt(prompt("Informe a medida da diagonal menor do losango:"));
+            var calculoLosango = (diagonalMaior*diagonalMenor)/2;
+        
+            alert("A área do losango corresponde a: " + calculoLosango);
+
+            var baseMaior = parseInt(prompt("Informe a medida da base maior do trapézio:"));
+            var baseMenor = parseInt(prompt("Informe a medida da base menor do trapézio:"));
+            var alturaTrapezio = parseInt(prompt("Informe a medida da altura do trapézio:"));
+            calculoTrapezio = ((baseMaior+baseMenor)*alturaTrapezio)/2;
+
+            alert("A área do trapézio corresponde a: " + calculoTrapezio);
+
+            var baseParalelogramo = parseInt(prompt("Informe a medida da base do paralelogramo:"));
+            var alturaParalelogramo = parseInt(prompt("Informe a medida da altura do paralelogramo:"));
+            var calculoParalelogramo = baseParalelogramo*alturaParalelogramo;
+
+            alert("A área do paralelogramo corresponde a: " + calculoParalelogramo);
+
+            var baseTriangulo = parseInt(prompt("Informe a medida da base do triângulo:"));
+            var alturaTriangulo = parseInt(prompt("Informe a medida da altura do triângulo:"));
+            var calculoTriangulo = (baseTriangulo*alturaTriangulo)/2;
+
+            alert("A área do triângulo corresponde a: " + calculoTriangulo);
+
+            var raioCirculo = parseInt(prompt("Informe a medida do raio do círculo:"));
+            var calculoCirculo = Math.PI*Math.pow(raioCirculo,2);
+
+            alert("A área do círculo corresponde a : " + calculoCirculo.toFixed(2));
+
+        </script>
+    </body>
+</html>
