@@ -21,4 +21,4 @@
 
 Áreas de Figuras Planas
 
-<img src="./src/resolucao01.png" alt="Cálculo de áreas de figuras planas">
+<img src="areaFiguras.png" alt="Cálculo de áreas de figuras planas">
