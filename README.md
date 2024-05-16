@@ -9,7 +9,7 @@
 
 ## Enunciado da atividade 
 
-## Hora de Codar 01 
+## ⏳ Hora de Codar 01 
 
 1. Escreva um programa em Javascript e crie uma variável chamada "nome_do_carro" e atribua-a um valor "Fusca". Exiba-a ao usuário.
    
@@ -23,7 +23,7 @@
 
 <img src="areaFiguras.png" alt="Cálculo de áreas de figuras planas">
 
-## Hora de Codar 02 
+## 🕰️ Hora de Codar 02 
 
 1. Escreva um programa em que o usuário informe dois números utilizando o "prompt". Então escreva em tela o maior deles.
 
