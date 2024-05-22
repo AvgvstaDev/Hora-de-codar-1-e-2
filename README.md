@@ -4,7 +4,7 @@
 
 ## Objetivo da atividade 
 
-"Hora de Codar" é uma série de 04 listas de exercícios para o desenvolvimento de Lógica de Programação em JavaScript. Aqui, trago as duas primeiras listas.
+"Hora de Codar" é uma série de 04 listas de exercícios para o desenvolvimento de Lógica de Programação em JavaScript. Aqui, trago as duas primeiras listas. Confira o link para ter acesso às duas últimas listas: https://github.com/AvgvstaDev/Hora-de-codar-3-e-4. 
 
 
 ## Enunciado da atividade 
